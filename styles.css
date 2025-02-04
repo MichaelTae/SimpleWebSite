@@ -1,0 +1,21 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+}
+
+main {
+  background-color: #dad6d6;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+}
