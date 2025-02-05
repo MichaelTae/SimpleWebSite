@@ -63,5 +63,12 @@ main {
 footer {
   background-color: #333;
   color: white;
+  display: flex;
+  justify-content: right;
+}
+.footer-icon {
+  color: black ;
+  text-decoration: none;
+  margin-left: 10px;
 }
 
