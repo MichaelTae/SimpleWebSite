@@ -64,7 +64,8 @@ footer {
   background-color: #333;
   color: white;
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
+  
 }
 .footer-icon {
   color: black ;
