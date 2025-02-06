@@ -92,12 +92,34 @@ footer {
   width: 100%;
   align-items: center;
   gap: 15px;
+  .services-sections {
+    max-width: 500px;
+    border: #444 solid 3px;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 4px #333;
+  }
 }
-.services-sections {
-  max-width: 500px;
-  border: #444 solid 3px;
-  border-radius: 16px;
-  padding: 20px;
-  background-color: whitesmoke;
-  box-shadow: 2px 2px 4px #333;
+/* style till about page  */
+
+.main-about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  .about {
+    grid-column: 1/2;
+    border: #444 solid 3px;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 40px;
+    width: 400px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 4px #333;
+  }
+  .about-us {
+    grid-column: 2/3;
+    img {
+      height: 200px;
+    }
+  }
 }
