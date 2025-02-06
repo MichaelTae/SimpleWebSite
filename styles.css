@@ -97,15 +97,16 @@ footer {
   width: 100%;
   align-items: center;
   gap: 15px;
+}
   .services-sections {
     max-width: 500px;
-    border: #444 solid 3px;
+    border: green;
     border-radius: 16px;
     padding: 20px;
-    background-color: whitesmoke;
-    box-shadow: 2px 2px 4px #333;
+    background-color: green;
+    box-shadow: 20px 2px 4px #333;
   }
-}
+
 
 
 #formcontainer {
