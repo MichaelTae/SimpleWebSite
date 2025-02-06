@@ -56,6 +56,34 @@ main {
   background-color: #dad6d6;
 }
 
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container h1 {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  font-size: 90px;
+  opacity: 70%;
+}
+
+.image-container h4 {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
 footer {
   background-color: #333;
   color: white;
