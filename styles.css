@@ -1,55 +1,51 @@
-
-  body {
-           
-  font-family: Arial, sans-serif;  
+body {
+  font-family: Arial, sans-serif;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
   height: 100vh;
   margin: 0;
-        }
+}
 
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            background-color: #333;
-            color: white;
-            position: fixed;
-            width: 200vh;
-            height: 60px;
-            top: 0;
-            z-index: 1000;
-            transition: background-color 0.3s ease;
-        }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  width: 200vh;
+  height: 60px;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
 
-        .navbar.scrolled {
-            background-color: #444;
-        }
+.navbar.scrolled {
+  background-color: #444;
+}
 
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 16px;
-            transition: color 0.3s ease;
-        }
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
 
-        .navbar a:hover {
-            color: #00bcd4;
-        }
+.navbar a:hover {
+  color: #00bcd4;
+}
 
-        .navbar .logo {
-            font-size: 20px;
-            font-weight: bold;
-        }
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
 
-        .navbar .menu {
-            display: flex;
-        }
-
-
+.navbar .menu {
+  display: flex;
+}
 
 header {
   background-color: #333;
@@ -78,3 +74,19 @@ footer {
   margin-left: 10px;
 }
 
+/* style till services page  */
+.services-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 15px;
+  .services-sections {
+    max-width: 500px;
+    border: #444 solid 3px;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 4px #333;
+  }
+}
