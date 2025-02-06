@@ -100,11 +100,14 @@ main {
   cursor: pointer;
   border: none;
   border-radius: 20px;
+  overflow: hidden;
+  transition: width 0.3s ease, background-color 0.2s;
 }
 
 .btn-container button:hover {
   background-color: #000000;
   text-decoration: underline;
+  width: 250px;
 }
 
 footer {
