@@ -61,18 +61,34 @@ footer {
   color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 550px;
+
   
 }
-.footer-section a{
+
+.footer-section-menu {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-section-menu a{
   color: white;
   text-decoration: none;
 }
 
-.footer-icon {
- 
-  text-decoration: none;
-  margin-left: 10px;
+.footer-section-media  {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
 }
+
+.footer-section-media a{
+  color: white;
+  text-decoration: none; 
+
+}
+
+
 
 /* style till services page  */
 .services-wrapper {
