@@ -84,6 +84,29 @@ main {
   height: auto;
 }
 
+.btn-container {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  gap: 20px;
+  display: flex;
+}
+
+.btn-container button {
+  padding: 10px 60px;
+  font-size: 16px;
+  background-color: #0a0a0a92;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
+
+.btn-container button:hover {
+  background-color: #000000;
+  text-decoration: underline;
+}
+
 footer {
   background-color: #333;
   color: white;
