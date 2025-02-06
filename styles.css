@@ -59,7 +59,36 @@ main {
 footer {
   background-color: #333;
   color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 550px;
+
+  
 }
+
+.footer-section-menu {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-section-menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section-media  {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section-media a{
+  color: white;
+  text-decoration: none; 
+
+}
+
+
 
 /* style till services page  */
 .services-wrapper {
