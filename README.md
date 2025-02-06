@@ -10,3 +10,5 @@ Varje ny Feature ska ha sin egna branch.
 
 Pullrequests:
 Vi ska ha minst en codereview vid PR innan merge.
+Den som skickar en PR ska ge en kort beskrivning av vad som har lagt tills eller ändrats.
+
