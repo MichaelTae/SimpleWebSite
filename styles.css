@@ -46,7 +46,15 @@ header {
 }
 
 main {
-  background-color: #dad6d6;
+  background-color: #85cf85e7;
+  box-shadow: 10px 13px 40px black;
+}
+
+.main-title{
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: lighter;
+  color:#333333ef;
 }
 
 footer {
@@ -55,6 +63,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 550px;
+  box-shadow: 10px 13px 40px black;
 }
 
 .footer-section-menu {
