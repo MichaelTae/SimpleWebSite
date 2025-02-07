@@ -8,3 +8,10 @@
          navbar.classList.remove('scrolled');
      }
  });
+
+ const button1 = document.getElementById("btn1");
+ const button2 = document.getElementById("btn2");
+
+ document.querySelectorAll(".button").forEach(button => {
+    console.log(button.innerHTML);
+ });
