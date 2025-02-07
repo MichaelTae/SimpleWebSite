@@ -62,8 +62,6 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 550px;
-
-  
 }
 
 .footer-section-menu {
@@ -71,24 +69,21 @@ footer {
   display: flex;
   flex-direction: column;
 }
-.footer-section-menu a{
+.footer-section-menu a {
   color: white;
   text-decoration: none;
 }
 
-.footer-section-media  {
+.footer-section-media {
   gap: 15px;
   display: flex;
   flex-direction: column;
 }
 
-.footer-section-media a{
+.footer-section-media a {
   color: white;
-  text-decoration: none; 
-
+  text-decoration: none;
 }
-
-
 
 /* style till services page  */
 .services-wrapper {
@@ -125,5 +120,30 @@ footer {
   margin-bottom: 5px;
   display: block;
 }
+
+/* style till about page  */
+
+.main-about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  .about {
+    grid-column: 1/2;
+    border: #444 solid 3px;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 40px;
+    width: 400px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 4px #333;
+  }
+  .about-us {
+    grid-column: 2/3;
+    img {
+      height: 200px;
+    }
+  }
+}
+
+
 
 
