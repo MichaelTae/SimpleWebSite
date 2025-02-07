@@ -45,8 +45,59 @@ header {
   color: white;
 }
 
-main {
-  background-color: #dad6d6;
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container h1 {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  font-size: 90px;
+  opacity: 70%;
+}
+
+.image-container h4 {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.btn-container {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  gap: 20px;
+  display: flex;
+}
+
+.btn-container button {
+  padding: 10px 60px;
+  font-size: 16px;
+  background-color: #0a0a0a92;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: width 0.3s ease, background-color 0.2s;
+}
+
+.btn-container button:hover {
+  background-color: #000000;
+  text-decoration: underline;
+  width: 250px;
 }
 
 .image-container {
@@ -109,6 +160,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 550px;
+  box-shadow: 10px 13px 40px black;
 }
 
 .footer-section-menu {
